@@ -1,0 +1,354 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": 13.469371930477545,
+        "y": -112.4532584334775
+      },
+      "caption": "Beneficiary",
+      "labels": [],
+      "properties": {
+        "DOB": "",
+        "DOD": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": -307.5319427067649,
+        "y": -208.0114287750363
+      },
+      "caption": "Gender",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#68bc00"
+      }
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": -307.5319427067649,
+        "y": -85.83653608625497
+      },
+      "caption": "Race",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#68bc00"
+      }
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": -297.91725591719927,
+        "y": 75.9527701219531
+      },
+      "caption": "State",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#68bc00"
+      }
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": -69.92202391321362,
+        "y": 253.59986687926084
+      },
+      "caption": "County",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#68bc00"
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 270.8197785732273,
+        "y": -369.8036650762272
+      },
+      "caption": "RenalDisease",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#ab149e"
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 342.65062567805916,
+        "y": -247.9719347624657
+      },
+      "caption": "ChronicHeartFailure",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#ab149e"
+      }
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 377.4178072868853,
+        "y": -112.4532584334775
+      },
+      "caption": "Alzheimers",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#ab149e"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 342.65062567805916,
+        "y": 42.782580790419516
+      },
+      "caption": "Inpatient",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#fb9e00"
+      }
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 225.93776382404727,
+        "y": 129.6365520780505
+      },
+      "caption": "Outpatient",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#fb9e00"
+      }
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 393.94167042963795,
+        "y": 233.55194458681893
+      },
+      "caption": "Claim",
+      "labels": [],
+      "properties": {
+        "ClaimStartDate": "",
+        "ClaimEndDate": "",
+        "ClaimAmountReiumbursement": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": 643.6453728988787,
+        "y": 114.37686626069433
+      },
+      "caption": "DiagnosisCode",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": 643.6453728988787,
+        "y": 273.73365539671164
+      },
+      "caption": "AttendingPhysician ",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": 536.4985044094519,
+        "y": -3.581324708184866
+      },
+      "caption": "ProcedureCode",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n2",
+      "fromId": "n0",
+      "toId": "n1",
+      "type": "HAS_GENDER",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n3",
+      "fromId": "n0",
+      "toId": "n3",
+      "type": "HAS_RACE",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n4",
+      "fromId": "n0",
+      "toId": "n4",
+      "type": "HOME_STATE",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "fromId": "n5",
+      "toId": "n4",
+      "type": "BELONGS_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n6",
+      "fromId": "n0",
+      "toId": "n5",
+      "type": "HOME_COUNTY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "fromId": "n0",
+      "toId": "n6",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "fromId": "n0",
+      "toId": "n7",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "fromId": "n0",
+      "toId": "n8",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "fromId": "n0",
+      "toId": "n9",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "fromId": "n0",
+      "toId": "n10",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "fromId": "n9",
+      "toId": "n11",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "fromId": "n10",
+      "toId": "n11",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "fromId": "n11",
+      "toId": "n12",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "fromId": "n11",
+      "toId": "n13",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "fromId": "n11",
+      "toId": "n14",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
