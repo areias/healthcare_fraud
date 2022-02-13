@@ -3927,34 +3927,6 @@
     },
     {
       "cell_type": "code",
-      "source": [
-        "final_train.columns"
-      ],
-      "metadata": {
-        "id": "9RxUrlI4TVPJ",
-        "outputId": "ddda1755-c773-40c4-d76f-bb4aabaf0c09",
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 165
-        }
-      },
-      "execution_count": 1,
-      "outputs": [
-        {
-          "output_type": "error",
-          "ename": "NameError",
-          "evalue": "ignored",
-          "traceback": [
-            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
-            "\u001b[0;32m<ipython-input-1-f2fe89f52bdd>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mfinal_train\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mcolumns\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
-            "\u001b[0;31mNameError\u001b[0m: name 'final_train' is not defined"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
       "metadata": {
         "id": "q4TmG53A8arw",
         "colab": {
@@ -5268,12 +5240,12 @@
         "groups.loc[groups['AttendingPhysician']>200]"
       ],
       "metadata": {
-        "id": "8ifRENBVIa1M",
-        "outputId": "2abb5453-c2f6-4d03-a372-05b3f499949b",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 614
-        }
+        },
+        "id": "8ifRENBVIa1M",
+        "outputId": "2abb5453-c2f6-4d03-a372-05b3f499949b"
       },
       "execution_count": 16,
       "outputs": [
@@ -5550,12 +5522,12 @@
         "p1[p1['AttendingPhysician'].isin(p2['AttendingPhysician'])]\n"
       ],
       "metadata": {
-        "id": "oWajzQsXI61q",
-        "outputId": "bc91fadc-8487-4a34-a4b6-5ded9ea055d9",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 114
-        }
+        },
+        "id": "oWajzQsXI61q",
+        "outputId": "bc91fadc-8487-4a34-a4b6-5ded9ea055d9"
       },
       "execution_count": 35,
       "outputs": [
@@ -5750,12 +5722,12 @@
         "groups"
       ],
       "metadata": {
-        "id": "QbiggXXLPW_M",
-        "outputId": "e1e95d2d-1570-40f5-b838-0ce667b90ce4",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 423
-        }
+        },
+        "id": "QbiggXXLPW_M",
+        "outputId": "e1e95d2d-1570-40f5-b838-0ce667b90ce4"
       },
       "execution_count": 38,
       "outputs": [
@@ -5966,12 +5938,12 @@
         "groups"
       ],
       "metadata": {
-        "id": "slCHEQ_ZNI2c",
-        "outputId": "93202fcc-c70a-4fdb-e455-dda1d6e58758",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 423
-        }
+        },
+        "id": "slCHEQ_ZNI2c",
+        "outputId": "93202fcc-c70a-4fdb-e455-dda1d6e58758"
       },
       "execution_count": 36,
       "outputs": [
@@ -6193,12 +6165,12 @@
         "groups.loc[groups['PotentialFraud']=='Yes']"
       ],
       "metadata": {
-        "id": "KOuvPFncPLEL",
-        "outputId": "0c987199-a582-4667-bdf8-0c57511eab0c",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 423
-        }
+        },
+        "id": "KOuvPFncPLEL",
+        "outputId": "0c987199-a582-4667-bdf8-0c57511eab0c"
       },
       "execution_count": 37,
       "outputs": [
